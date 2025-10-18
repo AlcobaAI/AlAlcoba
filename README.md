@@ -1,12 +1,7 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Al</h1>
 
-Hi, I'm Al 👋
+As a Data Scientist I specialize in architecting end-to-end machine learning solutions that solve real-world problems. My passion is automating complex processes, turning manual data entry into efficient, AI-driven workflows. For instance, I recently led a project that boosted document extraction accuracy from 40% to 95%, completely removing the need for manual annotation and saving months of labor.
 
-ML Engineer focused on building intelligent systems that eliminate tedious work.
-
-I specialize in architecting end-to-end machine learning solutions that solve real-world problems. My passion is automating complex processes, turning manual data entry into efficient, AI-driven workflows. For instance, I recently led a project that boosted document extraction accuracy from 40% to 95%, completely removing the need for manual annotation and saving months of labor.
-
-</div>
 
 🚀 Get in Touch
 
