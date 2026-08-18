@@ -1,84 +1,74 @@
 <h1 align="center">Hi 👋, I'm Al</h1>
+<h3 align="center">Machine Learning Engineer | AI Engineer</h3>
 
-As a Data Scientist I specialize in architecting end-to-end machine learning solutions that solve real-world problems. My passion is automating complex processes, turning manual data entry into efficient, AI-driven workflows. For instance, I recently led a project that boosted document extraction accuracy from 40% to 95%, completely removing the need for manual annotation and saving months of labor.
+<p align="center">
+  <a href="https://linkedin.com/in/alcides-alcoba"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:alcobaalcides@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://bit.ly/4iVAOGt"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=firefox&logoColor=FF7139" alt="Resume" /></a>
+</p>
 
+---
 
-🚀 Get in Touch
+### 🚀 About Me
 
-I'm currently diving deep into Agentic Workflows and enjoy connecting with others about MLOps, RAG systems, and practical AI applications. Feel free to reach out at alcobaalcides@gmail.com if you'd like to chat or collaborate!
+Machine Learning Engineer with 5+ years of experience architecting production-grade AI systems, specializing in agentic workflows, LLM fine-tuning, and advanced RAG architectures. I focus on automating complex data processes and scaling reliable AI systems. 
 
-<div align="center">
-<a href="https://linkedin.com/in/alcides-alcoba" target="_blank">LinkedIn</a> |
-<a href="https://bit.ly/4iVAOGt" target="_blank">Resume</a>
-</div>
+* <b>Proven Impact:</b> Boosted document extraction accuracy from 40% to 95% for sensitive government archives, reduced RAG system latency by 80%, and contributed to 10+ peer-reviewed NLP publications at top venues (ACL, EMNLP, EACL).
+* <b>Current Focus:</b> Deep-diving into stateful multi-agent orchestration, MLOps, and productionizing scalable LLM infrastructure.
+* <b>Location:</b> Vancouver, BC, Canada 🇨🇦
 
-Featured Projects
+---
+
+### 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Agentic & LLMs** | LangGraph, LangChain, CrewAI, Autogen, OpenAI Agents SDK, Tool Calling, Prompt Engineering |
+| **RAG & Retrieval** | Advanced RAG, GraphRAG, Semantic Chunking, Query Expansion, Re-ranking, Qdrant, ChromaDB, FAISS |
+| **ML & Fine-Tuning** | PyTorch, Hugging Face (Transformers, PEFT, TRL), SFT, LoRA/QLoRA, Scikit-learn, XGBoost |
+| **Data & Infrastructure** | Python, FastAPI, SQL, PostgreSQL, PySpark, Docker, GCP, AWS, CI/CD, Slurm, Bash |
+
+---
+
+### 🌟 Featured Projects
 
 <details>
-<summary><strong>ArchiveRAG: End-to-End RAG System for Sensitive Records</strong></summary>
+<summary><strong>1. Multi-Agent Content Generator (langgraph-post-gen)</strong></summary>
 
-
-
-
-
-I engineered a full data ingestion and retrieval pipeline to improve document understanding for sensitive archives. By fine-tuning embeddings with hard-negative mining, I significantly improved retrieval precision, ensuring user queries returned highly relevant results. The streamlined workflow reduced the setup time for new RAG applications by 80%.
-
-
-
-
-
-
-
-<em><strong>Skills:</strong> Python, LLMs, RAG, Ollama, GPT-4o, Fine-Tuning</em>
+* **Repository:** [AlcobaAI/langgraph-post-gen](https://github.com/AlcobaAI/langgraph-post-gen)
+* **Overview:** An agentic content generation engine utilizing planner, writer, judge, and editor agent stages to transform raw inputs into platform-specific content.
+* **Key Features:** Features persona routing, source attribution, and cost tracking metadata. Built with Pydantic schemas and stateful LangGraph workflows.
+* **Tech Stack:** `Python` `LangGraph` `FastAPI` `OpenAI API` `Qdrant` `Docker` `Pydantic`
 </details>
 
 <details>
-<summary><strong>PII Detection in Digitized Archives (InterPares ITrust AI)</strong></summary>
+<summary><strong>2. Autonomous Paper & Dataset Discovery (re-scout-ai)</strong></summary>
 
-
-
-
-
-I led the ML project to detect diplomatic elements and PII, enabling secure data handling. By implementing a state-of-the-art Nougat OCR model, we boosted document extraction accuracy from 40% to over 95%. I also designed a model-driven evaluation pipeline that eliminated the need for manual annotation, accelerating iteration cycles by months.
-
-
-
-
-
-
-
-<em><strong>Skills:</strong> Python, OCR, RAG, Label Studio, Model Evaluation</em>
+* **Repository:** [AlcobaAI/re-scout-ai](https://github.com/AlcobaAI/re-scout-ai)
+* **Overview:** An autonomous multi-agent pipeline that plans, searches, and extracts research papers and datasets in under a minute.
+* **Key Features:** Features streaming logs in a Gradio UI, ToolNode orchestration for human-in-the-loop verification, and an idempotent SQLite schema for full paper-dataset traceability.
+* **Tech Stack:** `Python` `LangGraph` `GPT-4o-mini` `Playwright` `SerpApi` `Gradio` `SQLite`
 </details>
 
-🛠️ My Tech Stack
+<details>
+<summary><strong>3. RAG Evaluation Framework (rag-eval)</strong></summary>
 
-<table>
-<tr>
-<td align="center"><strong>ML & Data Science</strong></td>
-<td>
-<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-<a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
-</td>
-</tr>
-<tr>
-<td align="center"><strong>Languages & Backend</strong></td>
-<td>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
-</td>
-</tr>
-<tr>
-<td align="center"><strong>DevOps & Tools</strong></td>
-<td>
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-<a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a>
-</td>
-</tr>
-</table>
+* **Repository:** [AlcobaAI/rag-eval](https://github.com/AlcobaAI/rag-eval)
+* **Overview:** An automated benchmarking suite designed to systematically evaluate retrieval strategies across custom domain-specific knowledge bases.
+* **Key Features:** Conducts comparative evaluation across dense retrieval, reranked retrieval, and hybrid BM25 search to guide optimal architectural selection for AI workflows.
+* **Tech Stack:** `Python` `RAG` `Evaluation Pipelines` `Dense Retrieval` `Hybrid Search` `Re-ranking`
+</details>
+
+<details>
+<summary><strong>4. ArchiveRAG: Fine-Tuned Retrieval System (ArchiveRAG)</strong></summary>
+
+* **Repository:** [AlcobaAI/ArchiveRAG](https://github.com/AlcobaAI/ArchiveRAG)
+* **Overview:** End-to-end RAG architecture engineered to improve precision and context understanding for domain-specific sensitive document archives.
+* **Key Features:** Fine-tuned `mxbai-embed-large-v1` embedding models using hard-negative mining, achieving higher precision and reducing deployment setup time for new RAG apps by 80%.
+* **Tech Stack:** `Python` `LLMs` `RAG` `Ollama` `Fine-Tuning` `Hard-Negative Mining`
+</details>
+
+### 📫 Let's Connect
+
+* **Email:** [alcobaalcides@gmail.com](mailto:alcobaalcides@gmail.com)
+* **LinkedIn:** [linkedin.com/in/alcides-alcoba](https://linkedin.com/in/alcides-alcoba)
